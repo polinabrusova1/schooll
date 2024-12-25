@@ -1,0 +1,247 @@
+
+/* Сброс настроек (стилей)  */
+/* Для чего нужно обнулять стили - https://www.youtube.com/watch?v=uRvMBL6_lQM */
+/* --------------------------------------------- */
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,
+:active {
+    outline: none;
+}
+a:focus,
+a:active {
+outline: none;
+}
+nav,
+footer,
+header,
+aside {
+display: block;
+}
+html,
+body {
+height: 100%;
+width: 100%;
+font-size: 100%;
+font-size: 16px;
+color: #000000;
+background-color: #ffffff !important;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+font-optical-sizing: auto;
+font-style: normal;
+overflow-x: hidden;
+}
+input,
+button,
+textarea {
+font-size: 20px;
+}
+input::-ms-clear {
+display: none;
+}
+button {
+cursor: pointer;
+}
+button::-moz-focus-inner {
+padding: 0;
+border: 0;
+}
+a {color: #000000;
+    transition: 0.5s;}
+a,
+a:visited {
+text-decoration: none  !important;
+}
+a:hover {
+text-decoration: none;
+color: #000000;
+transition: 0.5s;
+}
+ul li {
+list-style: none !important;
+
+}
+img {
+vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-weight: 400;
+}
+button {
+    outline: none ;
+}
+p{
+    margin-bottom: 0rem;
+}
+
+
+
+/* Шрифты */
+/* --------------------------------------------- */
+
+.montserrat-alternates-bold {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+.montserrat-alternates-extrabold {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+  
+
+
+
+/* Наши стили */
+/* --------------------------------------------- */
+
+.dark-blue{
+    color: #004969;
+}
+
+.text-blue{
+    color: #009FE3;
+}
+
+.text-blue-l{
+    color: #80CFF1;
+}
+
+.main-block{
+    background-image: url(../img/bg-img.png);
+    background-color: #009FE3;
+}
+
+.bg-color{
+    background-color: #009FE3;
+}
+
+.line{
+    height: 5px;
+    width: 75%;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.main-title-fs{
+    /* font-size: 56px; */
+    font-size: calc(20px + 27*(100vw / 1280));
+}
+
+.title-size{
+    font-size: 48px;
+    /* font-size: calc(20px + 27*(100vw / 1280)); */
+}
+
+.text-p-card{
+    bottom: 2rem;
+    left: 1.5rem;
+}
+
+.btn-style{
+    background-color: #009FE3;
+    color: white;
+    border-radius: 40px;
+}
+
+.footer-text-b{
+    /* font-size: 210px; */
+    font-size: calc(20px + 115*(100vw / 1280));
+}
+
+
+.ts {
+    text-shadow: 2px 2px 13px rgba(0, 0, 0, 1);
+}
+
+
+
+
+
+
+
+
+
+
+.content{
+    position: relative;
+    margin: auto;
+    height: 100%;
+    overflow: hidden;
+}
+
+.content .content-overlay {
+    background: #80CFF1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: 0.3s;
+    
+}
+
+.content:hover .content-overlay{
+    opacity: 1;
+  }
+
+
+.content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transition: 0.3s;
+    /* анимация */
+}
+
+.content:hover .content-details{
+    top: 10%;
+    left: 0%;
+    opacity: 1; 
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+

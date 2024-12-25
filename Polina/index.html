@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <!-- Сетка https://www.youtube.com/watch?v=Wqu-d_b3K-0 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Шрифты -->
+    <!--Сам сайт - https://fonts.google.com/ -->
+    <!-- Как подключать? - https://www.youtube.com/watch?v=eLY5KSXcQ6c -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700;800&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Наши стили! Они в самом низу тк они самые важные приоритер стилей -->
+    <!-- https://www.youtube.com/watch?v=8kwSQ6XwYjQ -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Заголовок сайта -->
+    <title>Сайт Школы №2 </title>
+
+</head>
+<body>
+
+    <!-- Navbar -->
+    <!-- https://getbootstrap.com/docs/5.0/components/navbar/ -->
+    
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="/img/logo.png" style="height: 70px;" alt="">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link montserrat-alternates-extrabold dark-blue" href="#school">О школе</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link montserrat-alternates-extrabold dark-blue" href="#activities">Внеурочные занятия</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link montserrat-alternates-extrabold dark-blue" href="#teachers">Педагогический состав</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link montserrat-alternates-extrabold dark-blue" href="#contact">Контакты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link montserrat-alternates-extrabold dark-blue" href="enrollees.html">Поступающим</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container-fluid main-block" style="min-height: 600px;">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-8 d-flex align-items-center justify-content-center">
+    
+                    <div class="d-flex flex-column mt-sm-5 mt-lg-0">
+    
+                        <div class="text-white montserrat-alternates-bold main-title-fs mb-5 my-5">
+                            Твой путь к успеху
+                        </div>
+                
+                        <div class="line mb-4"></div>
+                
+                        <div class="text-white montserrat-alternates-bold main-title-fs">
+                            начинается здесь!
+                        </div>
+                    </div>
+    
+                </div>
+    
+                <div class="col-lg-4 d-flex justify-content-center">
+                    <img src="img/girl-img.png" style="max-height: 600px;" alt="">
+                </div>  
+    
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    <div id="school" class="container mt-5 mb-5">
+        <div class="d-flex bg-color flex-column p-4" style="border-radius: 35px;">
+            <div class="title-size text-white montserrat-alternates-bold mb-4">
+                Наша школа это:
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg">
+                    <div class="text-center mb-4 mt-4"><img src="img/ic-1.png" alt=""></div>
+                    <div class="text-white montserrat-alternates-bold fs-5">
+                        Уютные и современные классы, оборудованные всем необходимым 
+                        для комфортного обучения и развития творческих способностей.
+                    </div>
+                </div>
+                <div class="col-12 col-lg">
+                    <div class="text-center mb-4 mt-4"><img src="img/ic-2.png" alt=""></div>
+                    <div class="text-white montserrat-alternates-bold fs-5">
+                        Заботливые учителя и школьные психологи, 
+                        которые всегда готовы поддержать ученика на пути к успеху.
+                    </div>
+                </div>
+                <div class="col-12 col-lg">
+                    <div class="text-center mb-4 mt-4"><img src="img/ic-3.png" alt=""></div>
+                    <div class="text-white montserrat-alternates-bold fs-5">
+                        Место, где каждый ученик может раскрыть свои способности 
+                        в спортивных секциях, творческих кружках и увлекательных проектах.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="activities" class="container mb-5">
+        <div class="title-size dark-blue montserrat-alternates-bold mb-4">
+            Внеурочная деятельность
+        </div>
+
+        <div class="row">
+
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mt-3">
+                <div class="card content p-2" style="width: 20rem; border-radius: 45px;">
+                    <img src="img/section/01.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-blue montserrat-alternates-bold fs-3">
+                            Тренинг "Первая помощь"
+                        </h5>
+                        <p class="card-text text-blue-l montserrat-alternates-bold fs-4">
+                            ( 5 - 11 класс)
+                        </p>
+                    </div>
+                    <div class="content-overlay"></div>
+                    <div class="content-details text-white montserrat-alternates-bold fs-3">
+                        Дети учат оказание первой помощи.
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mt-3">
+                <div class="card content p-2" style="width: 20rem; border-radius: 45px;">
+                    <img src="img/section/02.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-blue montserrat-alternates-bold fs-3">Акция "Посади ель"</h5>
+                        <p class="card-text text-blue-l montserrat-alternates-bold fs-4">
+                            ( 1 - 11 класс)
+                        </p>
+                    </div>
+                    <div class="content-overlay"></div>
+                    <div class="content-details text-white montserrat-alternates-bold fs-3">
+                        Дети сажают ёлки в лесу, заботясь о природе.
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mt-3">
+                <div class="card content p-2" style="width: 20rem; border-radius: 45px;">
+                    <img src="img/section/03.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-blue montserrat-alternates-bold fs-3">Эстафета к Дню Победы</h5>
+                        <p class="card-text text-blue-l montserrat-alternates-bold fs-4">
+                            ( 8 - 10 класс)
+                        </p>
+                    </div>
+                    <div class="content-overlay"></div>
+                    <div class="content-details text-white montserrat-alternates-bold fs-3">
+                        Спортивный забег, посвящённый Дню Победы.
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mt-3">
+                <div class="card content p-2" style="width: 20rem; border-radius: 45px;">
+                    <img src="img/section/04.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-blue montserrat-alternates-bold fs-3">КТД Ко дню матери</h5>
+                        <p class="card-text text-blue-l montserrat-alternates-bold fs-4">
+                            ( 1 - 4 класс)
+                        </p>
+                    </div>
+                    <div class="content-overlay"></div>
+                    <div class="content-details text-white montserrat-alternates-bold fs-3">
+                        Дети с мамами готовят торт в честь праздника.
+
+                    </div>
+                </div>
+
+            </div>            
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mt-3">
+                <div class="card content p-2" style="width: 20rem; border-radius: 45px;">
+                    <img src="img/section/05.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-blue montserrat-alternates-bold fs-3">Профпробы "Механик"</h5>
+                        <p class="card-text text-blue-l montserrat-alternates-bold fs-4">
+                            ( 9 - 11 класс)
+                        </p>
+                    </div>
+                    <div class="content-overlay"></div>
+                    <div class="content-details text-white montserrat-alternates-bold fs-3">
+                        Дети знакомятся с профессией механика и техникой.
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mt-3">
+                <div class="card content p-2" style="width: 20rem; border-radius: 45px;">
+                    <img src="img/section/06.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-blue montserrat-alternates-bold fs-3">Защитники природы</h5>
+                        <p class="card-text text-blue-l montserrat-alternates-bold fs-4">
+                            ( 5 - 9 класс)
+                        </p>
+                    </div>
+                    <div class="content-overlay"></div>
+                    <div class="content-details text-white montserrat-alternates-bold fs-3">
+                        Ребята изучают способы защиты природы.
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div id="teachers" class="container mb-5">
+
+        <div class="d-flex align-items-center justify-content-between flex-wrap">
+            <div class="title-size dark-blue montserrat-alternates-bold mb-4">
+                Педагогический состав
+            </div>
+            <a href="composition.html" class="card-text text-blue-l montserrat-alternates-bold fs-4">
+                Смотреть все  ->
+            </a>
+        </div>
+
+        <div class="row">
+            <!-- <div class="col-12 col-md-6  col-lg-4 d-flex justify-content-center mt-3">
+                <div class="p-2 position-relative" style="width: 20rem; border-radius: 45px;">
+                    <img src="img/card-p.png" class="card-img-top" alt="">
+                    <div class="card-body position-absolute text-p-card">
+                        <h5 class="card-title text-blue montserrat-alternates-bold fs-3">
+                            Иванов Иван Иванович
+                        </h5>
+                        <p class="card-text text-blue-l montserrat-alternates-bold fs-5">
+                            Учитель начальных классов 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6  col-lg-4 d-flex justify-content-center mt-3">
+                <div class="p-2 position-relative" style="width: 20rem; border-radius: 45px;">
+                    <img src="img/card-p.png" class="card-img-top" alt="">
+                    <div class="card-body position-absolute text-p-card">
+                        <h5 class="card-title text-blue montserrat-alternates-bold fs-3">
+                            Иванов Иван Иванович
+                        </h5>
+                        <p class="card-text text-blue-l montserrat-alternates-bold fs-5">
+                            Учитель начальных классов 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6  col-lg-4 d-flex justify-content-center mt-3">
+                <div class="p-2 position-relative" style="width: 20rem; border-radius: 45px;">
+                    <img src="img/card-p.png" class="card-img-top" alt="">
+                    <div class="card-body position-absolute text-p-card">
+                        <h5 class="card-title text-blue montserrat-alternates-bold fs-3">
+                            Иванов Иван Иванович
+                        </h5>
+                        <p class="card-text text-blue-l montserrat-alternates-bold fs-5">
+                            Учитель начальных классов 
+                        </p>
+                    </div>
+                </div>
+            </div> -->
+
+
+            <div class="col-12 col-md-6  col-lg-4 d-flex justify-content-center mt-3">
+                <div class="p-2 position-relative" style="width: 20rem; border-radius: 45px;">
+                    <img src="img/teachers/01.png" class="card-img-top" alt="">
+                    <div class="card-body position-absolute text-p-card">
+                        <h5 class="card-title text-white montserrat-alternates-bold fs-5 ts">
+                            Баранихина Галина Владимировна
+                        </h5>
+                        <p class="card-text text-white montserrat-alternates-bold ts ">
+                            Учитель обществознания и истории
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6  col-lg-4 d-flex justify-content-center mt-3">
+                <div class="p-2 position-relative" style="width: 20rem; border-radius: 45px;">
+                    <img src="img/teachers/02.png" class="card-img-top" alt="">
+                    <div class="card-body position-absolute text-p-card">
+                        <h5 class="card-title text-white ts montserrat-alternates-bold fs-5">
+                            Белякова Жаннан Николаевна
+                        </h5>
+                        <p class="card-text text-white ts montserrat-alternates-bold ">
+                            Учитель ИЗО,технологии
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6  col-lg-4 d-flex justify-content-center mt-3">
+                <div class="p-2 position-relative" style="width: 20rem; border-radius: 45px;">
+                    <img src="img/teachers/03.png" class="card-img-top" alt="">
+                    <div class="card-body position-absolute text-p-card">
+                        <h5 class="card-title text-white ts montserrat-alternates-bold fs-5">
+                            Голова Анна Александровна
+                        </h5>
+                        <p class="card-text text-white ts montserrat-alternates-bold ">
+                            Учитель физики
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+
+    </div>
+
+    <div id="contact" class="container mb-5">
+
+        <div class="title-size dark-blue montserrat-alternates-bold mb-4">
+            Контакты
+        </div>
+
+        <div class="row">
+            <div class="col col-lg-5">
+                <img src="img/vk.png" class="mb-4" style="height: 90px;" alt="">
+
+                <h5 class="text-blue montserrat-alternates-bold fs-3 mb-4">
+                    Присоединяйтесь к нашей странице ВК, чтобы узнать о последних новостях и событиях!
+                </h5>
+
+
+                
+                 <a href="https://vk.com/skola2sergach" target="_blank">
+                    <button type="button" class="btn btn-style montserrat-alternates-bold fs-3 py-3 px-5">Посетить</button>
+                    <!-- Посетить -->
+                 </a>
+
+            </div>
+            <div class=" col-lg-7 mt-5 mt-lg-0 d-flex align-items-center">
+                <img src="img/g-vk.png" style="width: -webkit-fill-available;" alt="">
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="container-fluid p-5" style="background-color: #009FE3;">
+        <div class="container">
+
+            <div class="d-flex justify-content-between flex-wrap">
+                <div class="mx-5">
+                    <a class="montserrat-alternates-extrabold text-white" href="index.html#school">О школе</a>
+                </div>
+                <div class="mx-5">
+                    <a class="montserrat-alternates-extrabold text-white" href="index.html#activities">Внеурочные занятия</a>
+                </div>
+                <div class="mx-5">
+                    <a class="montserrat-alternates-extrabold text-white" href="composition.html">Педагогический состав</a>
+                </div>
+                <div class="mx-5">
+                    <a class="montserrat-alternates-extrabold text-white" href="index.html#contact">Контакты</a>
+                </div>
+                <div class="mx-5">
+                    <a class="montserrat-alternates-extrabold text-white" href="enrollees.html">Поступающим</a>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center montserrat-alternates-extrabold text-white text-uppercase footer-text-b" >
+                школа№2 
+            </div>
+
+            <a href="mailto:skola2serga45@mail.ru" class="d-flex justify-content-center montserrat-alternates-extrabold text-white fs-5">
+                skola2serga45@mail.ru  
+            </a>
+
+
+
+        </div>
+    </div>
+
+
+    <!-- Script bs -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <!-- Script scroll -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+
+
+</body>
+</html>
